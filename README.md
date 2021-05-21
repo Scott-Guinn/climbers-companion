@@ -10,11 +10,15 @@ Climber's Companion is a web application that allows the user to input a climbin
 This app is in active development:
 
 ### Next steps:
-Backend
- - Create Postgres Schema
+Design:
+ - ~~create Figma wireframes~~
+ - sketch App styles
+
+Backend:
+ - ~~Create Postgres Schema~~
  - Seed database with 5+ USA climbing destinations
 
- Frontend
+ Frontend:
  - Create input form checklist
  - Create search bar
  - Implement responsive suggested climbing destination dropdown on search
