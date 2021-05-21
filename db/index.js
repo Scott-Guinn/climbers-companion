@@ -9,8 +9,8 @@ const pool = new Pool({
 
 const sampleQuery = (callback) => {
   pool.query('SELECT * from destinations;')
-    .then((results) => {
-      callback(results);
+    .then(({rows}) => {
+      callback(rows);
     })
 }
 
