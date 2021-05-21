@@ -14,7 +14,7 @@ export default function App() {
       <AppBar position="static" color="secondary">
         <Toolbar style={{justifyContent: "space-between"}}>
           <Typography variant="h6" style={{display: "flex"}}>
-            On Belay
+            iRock
           </Typography>
           {/* <Button color="inherit">Login</Button> */}
         <img style={{height: "25px", width: "25px", display: "flex"}} src='./climb_icon.png' />
