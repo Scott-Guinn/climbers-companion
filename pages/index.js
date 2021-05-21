@@ -12,11 +12,12 @@ export default function App() {
   return (
     <>
       <AppBar position="static" color="secondary">
-        <Toolbar>
-          <Typography variant="h6">
+        <Toolbar style={{justifyContent: "space-between"}}>
+          <Typography variant="h6" style={{display: "flex"}}>
             On Belay
           </Typography>
           {/* <Button color="inherit">Login</Button> */}
+        <img style={{height: "25px", width: "25px", display: "flex"}} src='./climb_icon.png' />
         </Toolbar>
       </AppBar>
       <Search />
